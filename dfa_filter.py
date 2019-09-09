@@ -126,7 +126,7 @@ def test():
     for w, valid in words:
         dfa.add_word(w, valid)
 
-    content = u"习近平通知很牛逼啊女人习大大！"
+    content = u"习近平通知很牛逼啊习大大！"
 
     is_ok, valid_words = dfa.is_sensitive(content)
     print is_ok, valid_words

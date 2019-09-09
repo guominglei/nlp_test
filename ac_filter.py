@@ -107,7 +107,7 @@ def test():
     filter = AC()
     filter.addWord(u"法律人")
     filter.addWord(u"法律")
-    text1 = u"现在的法律是保护老百姓法律人吗!习大大"
+    text1 = u"现在的法律是保护老百姓法律人!"
     word_list = filter.search(text1)
     for word in word_list:
         print word
